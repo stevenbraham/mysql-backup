@@ -1,9 +1,14 @@
 use strict;
 use warnings FATAL => 'all';
 use YAML::XS 'LoadFile';
-use Data::Dumper;
 
 #read values from config.yaml
 my $config = LoadFile('config.yaml');
 
-print Dumper($config);
+my $webdavUrl = $config->{webdav}->{url};
+my $webdavUsername = $config->{webdav}->{username};
+my $webdavPassword = $config->{webdav}->{password};
+my $mysqlUsername = $config->{mysql}->{username};
+my $mysqlPassword = $config->{mysql}->{username};
+
+print $webdavUrl;

@@ -1,4 +1,7 @@
-- webdavUrl: ""
-- webdavUsername: ""
-- webdavPassword: ""
-- rootPassword: ""
+webdav:
+  url: ""
+  username: ""
+  password: ""
+mysql:
+  username: "root"
+  password: ""
