@@ -2,6 +2,7 @@ webdav:
   url: ""
   username: ""
   password: ""
+  backupDir: ""
 mysql:
   username: "root"
   password: ""
