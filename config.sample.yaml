@@ -5,3 +5,7 @@ webdav:
 mysql:
   username: "root"
   password: ""
+blacklist:
+- information_schema
+- grabber
+- telefoongids

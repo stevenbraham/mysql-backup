@@ -16,4 +16,6 @@ This script could of course have been written using only bash. However I find th
 
 # Required CPAN libraries
 
-* [YAML::XS](https://metacpan.org/pod/YAML::XS)
+* YAML::XS
+* DBI
+* DBD::mysql
